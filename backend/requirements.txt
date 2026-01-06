@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy>=2.0
+psycopg[binary]
+alembic
+python-dotenv
+bcrypt
+python-jose[cryptography]
+requests
+httpx
+pydantic[email]>=2,<3
+email-validator
+pytest
+pytest-asyncio
+pytest-cov
+google-generativeai
